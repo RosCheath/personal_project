@@ -39,7 +39,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <!-- Logo -->
-            <a class="navbar-brand logo" href="index.html">
+            <a class="navbar-brand logo" href="#">
                 <img src="{{asset('ui_assets/assets/images/logo.png')}}" alt="logo">
             </a>
             <!-- // Logo -->
@@ -84,13 +84,13 @@
     <div class="hero-area-slids owl-carousel">
         <div class="single-slider">
             <!-- Single Background -->
-{{--            <img class="slider-bg" style="background-image: {{assert('ui_assets/assets/images/hero-area/img-1.jpg')}}"></img>--}}
-            <img src="{{asset('ui_assets/assets/images/hero-area/img-1.jpg')}}" class="slider-bg" >
+            <div class="slider-bg" style="background-image: url(ui_assets/assets/images/hero-area/b1.jpg)"></div>
+{{--            <img src="{{asset('ui_assets/assets/images/hero-area/b1.jpg')}}" class="slider-bg" >--}}
             <!-- // Single Background -->
         </div>
-        <div class="single-slider">
+        <div class="slider-bg" style="background-image: url(ui_assets/assets/images/hero-area/b2.jpg)">
             <!-- Single Background -->
-            <img src="{{asset('ui_assets/assets/images/hero-area/img-2.jpg')}}" class="slider-bg" >
+{{--            <img src="{{asset('ui_assets/assets/images/hero-area/b2.jpg')}}" class="slider-bg" >--}}
             <!-- // Single Background -->
         </div>
     </div>
@@ -113,8 +113,8 @@
         <!-- //Section Title -->
         <div class="row">
             <div class="col-lg-6">
-                <div class="about-bg">
-                    <img src="{{asset('ui_assets/assets/images/ab.jpg')}}">
+                <div class="about-bg" style="background-image:url(ui_assets/assets/images/ab.jpg)">
+{{--                    <img src="{{asset('ui_assets/assets/images/ab.jpg')}}">--}}
                     <!-- Social Link -->
                     <div class="social-aria">
                         <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -195,7 +195,8 @@
 <!-- ====================================================================
         NOTE: You need to change  'data-count="10"' and 'p' Eliments
     ===================================================================== -->
-<section class="section-padding pb-70 bg-img fact-counter" id="counter">
+<section class="section-padding pb-70 bg-img fact-counter" id="counter" style="background-image: url(ui_assets/assets/images/fan-fact-bg.jpg)">
+
     <div class="container">
         <div class="row">
             <!-- Single Fact Counter -->
@@ -265,11 +266,10 @@
         </div>
         <div class="row portfolio">
             <!-- Single Portfolio -->
-            <div class="col-lg-4 col-md-6 mix wp graphic">
-                <div class="single-portfolio">
-                    <img src="{{asset('ui_assets/assets/images/portfolio/img-2.jpg')}}">
+            <div class="col-lg-4 col-md-6 mix house">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/House/1.jpg)">
                     <div class="portfolio-icon text-center">
-                        <a data-lightbox='lightbox' href="{{asset('ui_assets/assets/images/portfolio/img-2.jpg')}}"><i class="fas fa-expand-arrows-alt"></i></a>
+                        <a data-lightbox='lightbox' href="{{asset('ui_assets/assets/images/portfolio/House/1.jpg')}}"><i class="fas fa-expand-arrows-alt"></i></a>
                     </div>
                     <div class="portfolio-hover">
                         <h4>Project <span>Name</span></h4>
@@ -278,10 +278,10 @@
             </div>
             <!-- // Single Portfolio -->
             <!-- Single Portfolio -->
-            <div class="col-lg-4 col-md-6 mix logo web graphic other wp">
-                <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-2.jpg)">
+            <div class="col-lg-4 col-md-6 mix house">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/House/2.jpg)">
                     <div class="portfolio-icon text-center">
-                        <a data-lightbox='lightbox' href="assets/images/portfolio/img-2.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/House/2.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
                     </div>
                     <div class="portfolio-hover">
                         <h4>Project <span>Name</span></h4>
@@ -290,10 +290,10 @@
             </div>
             <!-- // Single Portfolio -->
             <!-- Single Portfolio -->
-            <div class="col-lg-4 col-md-6 mix wp other">
-                <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-3.jpg)">
+            <div class="col-lg-4 col-md-6 mix school">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Shool/1.jpg)">
                     <div class="portfolio-icon text-center">
-                        <a data-lightbox='lightbox' href="assets/images/portfolio/img-3.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Shool/1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
                     </div>
                     <div class="portfolio-hover">
                         <h4>Project <span>Name</span></h4>
@@ -302,10 +302,10 @@
             </div>
             <!-- // Single Portfolio -->
             <!-- Single Portfolio -->
-            <div class="col-lg-4 col-md-6 mix logo other graphic wp web">
-                <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-4.jpg)">
+            <div class="col-lg-4 col-md-6 mix school">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Shool/2.jpg)">
                     <div class="portfolio-icon text-center">
-                        <a data-lightbox='lightbox' href="assets/images/portfolio/img-4.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Shool/2.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
                     </div>
                     <div class="portfolio-hover">
                         <h4>Project <span>Name</span></h4>
@@ -314,10 +314,10 @@
             </div>
             <!-- // Single Portfolio -->
             <!-- Single Portfolio -->
-            <div class="col-lg-4 col-md-6 mix logo other wp graphic web">
-                <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-5.jpg)">
+            <div class="col-lg-4 col-md-6 mix minimal">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Minimal-House/1.jpg)">
                     <div class="portfolio-icon text-center">
-                        <a data-lightbox='lightbox' href="assets/images/portfolio/img-5.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Minimal-House/1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
                     </div>
                     <div class="portfolio-hover">
                         <h4>Project <span>Name</span></h4>
@@ -326,10 +326,10 @@
             </div>
             <!-- // Single Portfolio -->
             <!-- Single Portfolio -->
-            <div class="col-lg-4 col-md-6 mix wp logo graphic web">
-                <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-6.jpg)">
+            <div class="col-lg-4 col-md-6 mix minimal">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Minimal-House/2.jpg)">
                     <div class="portfolio-icon text-center">
-                        <a data-lightbox='lightbox' href="assets/images/portfolio/img-6.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Minimal-House/2.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
                     </div>
                     <div class="portfolio-hover other">
                         <h4>Project <span>Name</span></h4>
@@ -338,10 +338,10 @@
             </div>
             <!-- // Single Portfolio -->
             <!-- Single Portfolio -->
-            <div class="col-lg-4 col-md-6 mix web wp">
-                <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-7.jpg)">
+            <div class="col-lg-4 col-md-6 mix minimal">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Minimal-House/3.jpg)">
                     <div class="portfolio-icon text-center">
-                        <a data-lightbox='lightbox' href="assets/images/portfolio/img-7.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Minimal-House/3.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
                     </div>
                     <div class="portfolio-hover">
                         <h4>Project <span>Name</span></h4>
@@ -350,10 +350,10 @@
             </div>
             <!-- // Single Portfolio -->
             <!-- Single Portfolio -->
-            <div class="col-lg-4 col-md-6 mix logo graphic wp web">
-                <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-8.jpg)">
+            <div class="col-lg-4 col-md-6 mix minimal">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Minimal-House/4.jpg)">
                     <div class="portfolio-icon text-center">
-                        <a data-lightbox='lightbox' href="assets/images/portfolio/img-8.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Minimal-House/4.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
                     </div>
                     <div class="portfolio-hover">
                         <h4>Project <span>Name</span></h4>
@@ -362,10 +362,82 @@
             </div>
             <!-- // Single Portfolio -->
             <!-- Single Portfolio -->
-            <div class="col-lg-4 col-md-6 mix other logo web">
-                <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-9.jpg)">
+            <div class="col-lg-4 col-md-6 mix condo">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Condo/1.jpg)">
                     <div class="portfolio-icon text-center">
-                        <a data-lightbox='lightbox' href="assets/images/portfolio/img-9.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Condo/1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                    </div>
+                    <div class="portfolio-hover">
+                        <h4>Project <span>Name</span></h4>
+                    </div>
+                </div>
+            </div>
+            <!-- // Single Portfolio -->
+            <!-- Single Portfolio -->
+            <div class="col-lg-4 col-md-6 mix condo">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Condo/2.jpg)">
+                    <div class="portfolio-icon text-center">
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Condo/2.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                    </div>
+                    <div class="portfolio-hover">
+                        <h4>Project <span>Name</span></h4>
+                    </div>
+                </div>
+            </div>
+            <!-- // Single Portfolio -->
+            <!-- Single Portfolio -->
+            <div class="col-lg-4 col-md-6 mix condo">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Condo/3.jpg)">
+                    <div class="portfolio-icon text-center">
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Condo/3.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                    </div>
+                    <div class="portfolio-hover">
+                        <h4>Project <span>Name</span></h4>
+                    </div>
+                </div>
+            </div>
+            <!-- // Single Portfolio -->
+            <!-- Single Portfolio -->
+            <div class="col-lg-4 col-md-6 mix condo">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Condo/4.jpg)">
+                    <div class="portfolio-icon text-center">
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Condo/4.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                    </div>
+                    <div class="portfolio-hover">
+                        <h4>Project <span>Name</span></h4>
+                    </div>
+                </div>
+            </div>
+            <!-- // Single Portfolio -->
+            <!-- Single Portfolio -->
+            <div class="col-lg-4 col-md-6 mix condo">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Condo/5.jpg)">
+                    <div class="portfolio-icon text-center">
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Condo/5.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                    </div>
+                    <div class="portfolio-hover">
+                        <h4>Project <span>Name</span></h4>
+                    </div>
+                </div>
+            </div>
+            <!-- // Single Portfolio -->
+            <!-- Single Portfolio -->
+            <div class="col-lg-4 col-md-6 mix condo">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Condo/6.jpg)">
+                    <div class="portfolio-icon text-center">
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Condo/6.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
+                    </div>
+                    <div class="portfolio-hover">
+                        <h4>Project <span>Name</span></h4>
+                    </div>
+                </div>
+            </div>
+            <!-- // Single Portfolio -->
+            <!-- Single Portfolio -->
+            <div class="col-lg-4 col-md-6 mix condo">
+                <div class="single-portfolio" style="background-image: url(ui_assets/assets/images/portfolio/Condo/7.jpg)">
+                    <div class="portfolio-icon text-center">
+                        <a data-lightbox='lightbox' href="ui_assets/assets/images/portfolio/Condo/7.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
                     </div>
                     <div class="portfolio-hover">
                         <h4>Project <span>Name</span></h4>
