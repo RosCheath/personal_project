@@ -51,7 +51,7 @@
 
     $(function () {
         element.typed({
-            strings: ["Web Designer.", "Graphic Designer."],
+            strings: ["ARCHITECHTURE.", "Graphic Designer."],
             typeSpeed: 100,
             loop: true,
             autoplay: true,
@@ -86,7 +86,7 @@
 
 
     /*::::::::::::::::::::::::::::::::::::
-       Contact Area 
+       Contact Area
     ::::::::::::::::::::::::::::::::::::*/
     var form = $('#contact-form');
 
@@ -117,8 +117,8 @@
                 }
             });
     });
-    
-    
+
+
     /*::::::::::::::::::::::::::::::::::::
     Preloader
     ::::::::::::::::::::::::::::::::::::*/
